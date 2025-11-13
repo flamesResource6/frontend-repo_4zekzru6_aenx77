@@ -4,6 +4,7 @@ import Experience from './components/Experience'
 import MenuShowcase from './components/MenuShowcase'
 import About from './components/About'
 import Contact from './components/Contact'
+import Gallery from './components/Gallery'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Experience />
         <MenuShowcase />
+        <Gallery />
         <About />
         <Contact />
         <footer className="border-t border-white/10 py-10 text-center text-white/60">
